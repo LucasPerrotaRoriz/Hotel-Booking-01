@@ -40,7 +40,7 @@
         <!-- Menu Header -->
         <mj-section background-color="#ffffff" padding="0">
             <mj-column padding="0">
-                <mj-navbar base-url="" hamburger="hamburger" ico-color="#ffffff">
+                <mj-navbar base-url="">
                     <mj-navbar-link css-class="lato-font menu-link" padding="0" href="#" color="#112A5E">Booking</mj-navbar-link>
                     <mj-navbar-link href="#" color="#112A5E">&vert;</mj-navbar-link>
                     <mj-navbar-link css-class="lato-font menu-link" padding="0" href="#" color="#112A5E">Rooms</mj-navbar-link>
@@ -85,7 +85,26 @@
         </mj-section>
 
         <!-- 3 columns section -->
+        <mj-section background-color="#ffffff" padding="0">
+            <mj-column>
+                <mj-image src="img/01_1.png"/ padding="5px">
+            </mj-column>
+            <mj-column>
+                <mj-image src="img/02_1.png" padding="5px">
+            </mj-column>
+            <mj-column>
+                <mj-image src="img/03_1.png"/ padding="5px">
+            </mj-column>
+            
+        </mj-section>
 
+        <mj-section background-color="#ffffff">
+            <mj-column padding="10px 0">
+                <mj-text css-class="align-to-middle lora-font" font-size="19px"> 
+                    Keep sharing with us by tagging <mj-raw style="font-weight: bold; color: #072b52;">#YourCompany</mj-raw>
+                </mj-text>
+            </mj-column>
+        </mj-section>
 
         <!-- Footer social -->
 
