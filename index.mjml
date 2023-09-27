@@ -53,24 +53,44 @@
         </mj-section>
 
         <!-- Company Header -->
-     
+        <mj-section background-color="#112A5E" padding="0">
+            <mj-column>
+                <mj-image
+                    src="img/INTRO.png"
+                    width="600px"
+                    height="auto"
+                    padding="0"
+                ></mj-image>
+            </mj-column>
+        </mj-section>
 
         <!--Hero section -->
-        
+        <mj-section background-color="#FEFEFF" >
+            <mj-column>
+                <mj-text css-class="align-to-middle lora-font h1-title" padding="10px 0 40px">
+                    Thank You.
+                </mj-text>
+                <mj-text css-class="lato-font align-to-middle" font-size="16px" font-weight="bold" padding="0" line-height="20px">
+                    Hey there,
+                </mj-text>
+                <mj-text css-class="lato-font align-to-middle" font-size="16px" line-height="20px" padding="0 100px 10px">
+                    thank you for choosing our place for your recent stay. 
+                    It's a pleasure to have you as our guest.
+                </mj-text>
+                <mj-text css-class="lato-font align-to-middle" font-size="16px" line-height="20px" padding="10px 60px">
+                    We would like to take this time to thank you for your accomodation
+                    and we hope to see you again soon.
+                </mj-text>
+            </mj-column>
+        </mj-section>
 
         <!-- 3 columns section -->
-        <mj-section background-color="white">
-        
-        </mj-section>
+
 
         <!-- Footer social -->
-        <mj-section background-color="#DDD7E9">
-        
-        </mj-section>
+
 
         <!-- Footer -->
-        <mj-section background-color="#072A53">
-        
-        </mj-section>
+
     </mj-body>
 </mjml>
