@@ -40,7 +40,7 @@
         <!-- Menu Header -->
         <mj-section background-color="#ffffff" padding="0">
             <mj-column padding="0">
-                <mj-navbar base-url="">
+                <mj-navbar base-url="" padding="10px">
                     <mj-navbar-link css-class="lato-font menu-link" padding="0" href="#" color="#112A5E">Booking</mj-navbar-link>
                     <mj-navbar-link href="#" color="#112A5E">&vert;</mj-navbar-link>
                     <mj-navbar-link css-class="lato-font menu-link" padding="0" href="#" color="#112A5E">Rooms</mj-navbar-link>
@@ -95,19 +95,41 @@
             <mj-column>
                 <mj-image src="img/03_1.png"/ padding="5px">
             </mj-column>
-            
         </mj-section>
 
         <mj-section background-color="#ffffff">
             <mj-column padding="10px 0">
-                <mj-text css-class="align-to-middle lora-font" font-size="19px"> 
+                <mj-text css-class="align-to-middle lora-font" font-size="19px" line-height="25px"> 
                     Keep sharing with us by tagging <mj-raw style="font-weight: bold; color: #072b52;">#YourCompany</mj-raw>
                 </mj-text>
             </mj-column>
         </mj-section>
 
         <!-- Footer social -->
+        <mj-section background-color="#F6F7F5" padding="10px 0">
+            <mj-column>     
+                <mj-image width="120px" src="img/logo-blu.png"/>
+            </mj-column>
+        </mj-section>
 
+        <mj-section background-color="#F6F7F5" padding="10px 0 20px" css-class="align-to-middle">
+            <mj-group width="150px">
+                <mj-column>
+                    <mj-raw>
+                        <table role="presentation" celpadding="0" cellspacing="0" border="0" width="100%"> 
+                            <tr>
+                                <td>
+                                    <img width="32" height="auto" border="0" alt="Facebook icon" src="img/facebook@2x.png" style="max-width: 32px; width: 100%; height: auto;" />
+                                    <img width="32" height="auto" border="0" alt="Twitter icon" src="img/twitter@2x.png" style="max-width: 32px; width: 100%; height: auto;" />
+                                    <img width="32" height="auto" border="0" alt="Instagram icon" src="img/instagram@2x.png" style="max-width: 32px; width: 100%; height: auto;" />
+                                    <img width="32" height="auto" border="0" alt="Youtube icon" src="img/youtube@2x.png" style="max-width: 32px; width: 100%; height: auto;" />
+                                </td>
+                            </tr>
+                        </table>
+                    </mj-raw>
+                </mj-column>
+            </mj-group>
+        </mj-section>
 
         <!-- Footer -->
 
